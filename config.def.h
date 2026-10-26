@@ -84,7 +84,7 @@ static const enum libinput_config_tap_button_map button_map = LIBINPUT_CONFIG_TA
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
-static const char dmenufont[] = "monospace:size=10";
+static const char dmenufont[] = "monospace:size=9";
 static const char col_gray1[] = "#222222";
 static const char col_gray3[] = "#bbbbbb";
 static const char col_gray4[] = "#eeeeee";
