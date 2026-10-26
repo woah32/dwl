@@ -90,8 +90,8 @@ static const char col_gray3[] = "#bbbbbb";
 static const char col_gray4[] = "#eeeeee";
 static const char col_cyan[]  = "#005577";
 
-static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-static const char *termcmd[]  = { "st", NULL };
+static const char *dmenucmd[] = { "wmenu-run", NULL };
+static const char *termcmd[]  = { "foot", NULL };
 
 static const Key keys[] = {
 	/* modifier                  key                 function          argument */
